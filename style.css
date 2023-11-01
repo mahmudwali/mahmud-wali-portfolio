@@ -50,7 +50,7 @@ button:hover{
 
 
 .container{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -250,6 +250,13 @@ button:hover{
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+.project_details .testimonials:hover{
+    box-shadow: inset 16px 16px 10px 0 rgba(0, 0, 0, 0.582), inset -16px -16px 10px 0 rgba(37, 37, 37, 0.705);
+    transition: 1s;
+}
+
+/*  */
+
 .project_details .testimonials p{
     padding: 10px  0;
     font-size: 14px;
@@ -279,4 +286,92 @@ button:hover{
 
 .footer{
     text-align: center;
+    padding: 30px;
 }
+
+
+
+@media only screen and (max-width:768px){
+    main{
+        width: 100%;
+    }
+    
+    .portfolio_header .site_link ul{
+        display: none;
+    }
+    .portfolio_header .btn{
+        display: none;
+    }
+
+
+
+    .portfolio_body{
+        display: inline-block;
+        width: 100%;
+
+    }
+    
+    .portfolio_body .body_left{
+        width: 100%;
+        background: var(--Ywhite);
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    
+    .portfolio_body .body_right{
+        width: 100%;
+
+    }
+    .portfolio_all{
+        display: inline-block;
+        width: 100%;
+
+        
+    }
+
+
+    
+    .portfolio_details{
+        width: 100%;
+    }
+
+    .portfolio_details .experience {
+        display: inline-block;
+        width: 100%;  
+    }
+
+
+
+
+    
+.project_details{
+    width: 100%;
+}
+.project_details .showcase .img img{
+    display: none;
+}
+
+
+
+
+
+.project_details .blog_contact{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
